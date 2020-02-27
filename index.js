@@ -29,7 +29,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', function (req, res) {
-    res.sendFile('page_1.html', {
+    res.sendFile('home.html', {
         root: path.join(__dirname, '')
     });
 });
